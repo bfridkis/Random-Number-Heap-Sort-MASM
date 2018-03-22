@@ -10,6 +10,7 @@ Instructions:
 4. If presented a window with the message "This project is out of date", click "Yes" for "Would you like to build it?".
 
 If Build Error:
+
 5. If build error results, right-click "Solution 'Project'" in "Solution Explorer" (right-side of screen), 
   and select "Retarget Solution". Click "Ok" in resulting window.
 6. Repeat step 3.
