@@ -1,7 +1,7 @@
 # Random-Number-Heap-Sort-MASM
 This program sorts between 10-200 random integers using heap sort in MASM (Microsoft Assembly Language).
 
-Output is ordered by column as opposed to row.
+NOTE *Output is ordered by column.
 
 Instructions:
 1. Copy all files to a specified directory.
