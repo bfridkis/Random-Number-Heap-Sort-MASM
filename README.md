@@ -4,10 +4,11 @@ This program sorts between 10-200 random integers using heap sort in MASM (Micro
 NOTE *Output is ordered by column.
 
 Instructions:
-1. Copy all files to a specified directory.
-2. Launch "Project.sln". (Requires Microsoft Visual Studio.)
-3. Using the "Debug" menu, select "Start Without Debugging" (ctrl + F5).
-4. If presented a window with the message "This project is out of date", click "Yes" for "Would you like to build it?".
+1. Locate a folder named "bin" in root directory. If no "bin" folder exists, create one.
+2. Copy all files to a directory (folder) of your choice located within the bin folder.
+3. Launch "Project.sln". (Requires Microsoft Visual Studio.)
+4. Using the "Debug" menu, select "Start Without Debugging" (ctrl + F5).
+5. If presented a window with the message "This project is out of date", click "Yes" for "Would you like to build it?".
 
 If Build Error:
 
