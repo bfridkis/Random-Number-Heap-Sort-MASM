@@ -625,7 +625,7 @@ adjustHeap PROC
 	mov		[ebp - 28], eax					;Store in local variable
 
 	mov		eax, [ebp + 12]					;Move max parameter into eax and check if right child index is less...
-	cmp		[ebp - 28], eax					;... than max (indicating two chilrend nodes). If not, jmp to check for left child
+	cmp		[ebp - 28], eax					;... than max (indicating two child nodes). If not, jmp to check for left child
 	jl		TwoChildren
 	cmp		[ebp - 24], eax					;If there aren't two children, check if leftIdx < max, and if so, there is one...
 	jl		LeftChildSmallest				;...child (left). Jump accordingly.
