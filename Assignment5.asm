@@ -673,7 +673,7 @@ LeftChildSmallest:
 AdjustHeapFunctionCallParametersPush:
 	push	[ebp + 16]						;Push offset of array
 	push	[ebp + 12]						;Push index of max position
-	mov		ax, [ebp - 34]					;Lines 658-661 determine the smallest child value... 
+	mov		ax, [ebp - 34]					;Determine the smallest child value... 
 	cmp		ax, [ebp - 36]					;...and then push the smallest child index based thereon
 	jbe		PushLeftChildIndex
 	jmp		PushRightChildIndex
