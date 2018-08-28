@@ -694,7 +694,7 @@ RightChildSmallest:
 	add		eax, [ebp + 16]					;...and add to array OFFSET to get address of array at index
 	mov		ax, WORD PTR[eax]				;Move the value of index position into eax by dereferencing its address
 	cmp		ax, WORD PTR[ebp - 32]			;Compare value at position index to value of smallest child
-	jbe		Finish							;If parent is already smaller, jump to finish
+	jbe		Finish							;If parent is already smaller or equal, jump to finish
 
 	push	[ebp + 16]						;Push offset of array
 	push	[ebp - 28]						;Push index of smallest (right) child array element			
